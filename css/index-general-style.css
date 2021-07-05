@@ -1,0 +1,31 @@
+body{
+    margin: 12px;
+    background-color: #1D4857;
+    color: white;
+    background-image: url(../imgs/body-bg-mobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+a button{
+    border: 1px groove #000;
+    margin: 3px;
+    background-color:#112333;
+    color:white;
+    width: 99%;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+a button:hover{
+    background-color: #162D41;
+    cursor: pointer;
+
+}
+
+a button:active{
+    background-color: #38001C;
+
+}

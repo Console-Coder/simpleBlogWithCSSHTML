@@ -1,0 +1,19 @@
+@import url('index-classes-style.css');
+@import url('index-general-style.css');
+@import url('index-ids-style.css');
+
+@media screen and (min-width: 900px) {
+    body {
+        background-image: url(../imgs/body-bg.jpg);
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    #posts-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    }
+}

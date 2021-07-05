@@ -1,0 +1,58 @@
+.navbar {
+    background-color: transparent;
+    width: 100%;
+}
+
+.navbar span {
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    color: blue;
+    background-color: black;
+}
+
+.navbar a {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 3px;
+    text-decoration: none;
+}
+
+.currentlink {
+    background-color: #4a4a4a;
+}
+
+.footer-paragraph {
+    display: inline-block;
+    margin: 4px;
+}
+
+.card {
+    border: 1px groove #60f;
+    border-radius: 5% 5%;	
+    padding: 8px;
+    margin: 3px;;
+}
+
+.post-img {
+    margin-left: 3px;
+    min-width: 75%;
+    max-width: 95%;
+}
+
+.card-category {
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+}
+
+.post-date {
+    font-size: x-small;
+}
+
+.card a {
+    width: 35%;
+}
